@@ -1,0 +1,29 @@
+
+
+iframe {
+    position: center;
+    height: 400px;
+    width: 80%;
+    margin: 20px;
+    padding: 10px;
+    align-content: center;
+}
+
+.background-section {
+    background-image: url('../assets/img/curry\ background.jpg');
+    background-size: cover; /* Ensure the image covers the div */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent image repetition */
+    height: 550px; /* Set a fixed height */
+    width: 100%; /* Make it take the full width of its parent */
+    padding-top: 0;
+  }
+  .background-section h1 {
+    color: white; /* White text color */
+    text-align: center;
+    position: relative; /* Make it work with z-index */
+    z-index: 6; /* Ensure it's on top of other elements */
+    padding-top: 220px;
+    padding-left: 440px;
+font-family: 'Courier New', Courier, monospace;
+  }
